@@ -46,7 +46,7 @@ class MyExtension(omni.ext.IExt):
     # ext_id is the current extension id. It can be used with the extension
     # manager to query additional information, like where this extension is
     # located on the filesystem.
-    def on_startup(self, _ext_id):
+    def on_startup(self, ext_id):
         """This is called every time the extension is activated."""
         print("[my_company.my_python_ui_extension] Extension startup")
         self._ext_id = ext_id
