@@ -2,10 +2,7 @@
 
 本專案基於 NVIDIA Omniverse **Kit App Template**，實作一個自訂的 Kit App 與 Python UI Extension，用於機房機櫃（rack）氣冷情境下，依照顯熱守恆公式：
 
-
-"
-P=m*cp*ΔT
-"
+`P = m × cp × ΔT`
 
 對每個 rack 計算溫差或所需質量流率，並以顏色將狀態可視化（綠 / 黃 / 紅）。
 
